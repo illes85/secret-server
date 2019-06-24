@@ -1,0 +1,26 @@
+{
+  "name": "secret-server",
+  "version": "1.0.0",
+  "description": "This is an API of a secret service. You can save your secret by using the API. You can restrict the access of a secret after the certen number of views or after a certen period of time.",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node index.js",
+    "start-watch": "nodemon src/index.js"
+  },
+  "keywords": [
+    "swagger"
+  ],
+  "license": "Unlicense",
+  "private": true,
+  "dependencies": {
+    "connect": "^3.2.0",
+    "js-yaml": "^3.3.0",
+    "random-hash": "^4.0.1",
+    "sqlite3": "^4.0.9",
+    "swagger-tools": "0.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
