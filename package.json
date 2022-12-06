@@ -18,7 +18,7 @@
     "js-yaml": "^3.3.0",
     "random-hash": "^4.0.1",
     "sqlite3": "^4.0.9",
-    "swagger-tools": "0.10.1"
+    "swagger-tools": "0.10.4"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"
